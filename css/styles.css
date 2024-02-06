@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #f9faf8;
+    display: flex;
+    font-size: 24px;
+    gap: 24px;
+}
+.logo{
+    margin-right: auto;
+    font-weight: 900;
+}
+nav{
+    margin-bottom: 50px;
+}
+.header, .mid-section, .lower-section, .last-section, .footer{
+    padding: 20px 100px;
+}
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-hero h1, .left-hero p{
+    margin-bottom: 8px;
+}
+.left-hero h1{
+    font-size: 48px;
+}
+.left-hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 600px;
+}
+.left-hero button{
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 4px 18px;
+    color: #f9faf8;
+}
+.mid-section h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    border: 1px solid #3882F6;
+    border-radius: 12px;
+    margin: 10px;
+    width: 125px;
+    height: 100px;
+}
+.box p{
+    text-align: center;
+}
+.lower-section{
+    background-color: #E5E7EB;
+    padding: 80px 150px 80px 150px;
+}
+.quote{
+    font-style: light italic;
+    font-size: 36px;
+    color: #1f2937;
+} 
+.author{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: end;
+}
+.blue{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882F6;
+    padding: 25px;
+    margin: 50px 80px;
+    padding: 30px 100px;
+    border-radius: 12px;
+}
+.blue button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 12px;
+    padding: 4px 18px;
+}
+.footer{
+    display: flex;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+.hero, .mid-section, .lower-section{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
